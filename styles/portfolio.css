@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* margin: 30px 40px; */
+}
+
+.primary{
+    color:#FD6E0A;
+}
+
+/* header vs nav manu bar */
+
+nav li{
+    /* display: flex; */
+    list-style: none;
+    margin-left: 40px;
+
+}
+.but-primary{
+    font-weight: 700;
+    font-size: 20px;
+    border:0px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 18px 30px;
+    height:60px;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 200px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header{
+    /* background: #FFF8F3; */
+    background-color: darkkhaki;
+    background-image: url(/images/header_bg.png),url(/images/icons/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* banner style */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    color: #271e1e;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*About section styles  */
+.about{
+    margin-top: 130px;
+    /* background: #FFF8F3; */
+    border-radius: 10px;
+    background-color: darkkhaki;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+.section-description{
+
+   color: #271e1e;;
+   font-size: 18px;
+   margin-bottom: 30px;
+    
+}
+
+.about-info-continer{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    /* color: #757575; */
+    color: #271e1e;;
+}
+.about .info-description{
+    font-weight: 900;
+    font-size: 20px;
+    color: 
+    Dark 02
+    #474747;
+    
+}
+
+
+
+
+
