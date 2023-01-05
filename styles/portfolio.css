@@ -42,7 +42,7 @@ nav li{
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 35px 200px;
+    padding: 35px 200px;
 
 }
 
@@ -59,6 +59,8 @@ nav ul{
     background-image: url(/images/header_bg.png),url(/images/icons/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right,left;
+    
+
 }
 /* banner style */
 .banner{
