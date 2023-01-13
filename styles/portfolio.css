@@ -56,7 +56,7 @@ nav ul{
 .header{
     /* background: #FFF8F3; */
     background-color: darkkhaki;
-    background-image: url(./images/header_bg.png),url(./images/icons/developer.png);
+    background-image: url('../images/header_bg.png'),url('../images/icons/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,left;
     background-size: auto, 100px 600px;
